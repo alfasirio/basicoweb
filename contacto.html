@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contacto</title>
+  <link href="style.css" rel ="stylesheet">
+
+  <!--- Uso de Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Waiting+for+the+Sunrise&display=swap" rel="stylesheet">
+
+  <!-- Incluir un logotipo -->
+  <link href="lata.ico" rel ="icon">
+</head>
+
+<!-- Incluir header, main y footer para todas las paginas -->
+
+<body> 
+
+    <header>
+
+      <div class="resposivo">
+        <div> <a href="index.html"> Acerca de mi </a> </div>
+        <div> <a href="resume.html"> Resume </a> </div>
+        <div> <a href="contacto.html"> Contacto </a> </div>
+        <div> <a href="libre.html"> Libre </a> </div>  
+      </div>
+      
+    </header>
+    
+    <main>
+      <h1>Contacto</h1>
+      <hr/>
+   
+      <!-- - Formulario con al menos 5 inputs -->
+
+      <h3>Cuestionario de contacto</h3>
+    
+      <form action= "#" >
+        <p><b>Responde las siguientes preguntas</b></p>  
+          
+        <p>¿Cuál es tu nombre? </p>
+          <input type = "text" placeholder = "Escribe tu nombre">
+          
+        <p>¿Cuál es tu sexo? </p>
+          <input type = "radio" name= "grupo-sexo"> Hombre
+          <input type = "radio" name= "grupo-sexo"> Mujer
+        
+          <p>¿Dónde naciste? </p>
+        <input type = "radio" name= "grupo-naciste" checked> México
+        <input type = "radio" name= "grupo-naciste"> Otros
+          
+        <p>¿Cúal red social utilizas? </p>
+          <input type = "checkbox"> Facebook
+          <input type = "checkbox"> WhatsApp
+          <input type = "checkbox"> Telegram
+          <input type = "checkbox"> x
+          <input type = "checkbox"> Instagram
+          
+          <p>¿Cuál es tu email? </p>
+          <input type = "text" placeholder = "email@email.com">
+
+        <p>¿Eres estudiante?  </p>
+          <input type = "radio" name= "grupo-estudiante" checked> Sí
+          <input type = "radio" name= "grupo-estudiante"> No
+            
+        <p>¿Cuál es tu teléfono? </p>
+         <input type = "text" placeholder = "Solo números">
+        
+        <br>
+
+        <button atributo>Enviar respuestas </button>
+     </form>
+
+    </main>
+
+    <footer>
+      <p> Enero 2014, proyecto desarrollo web básico </p>
+    </footer>
+
+</body>
+</html>

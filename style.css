@@ -1,0 +1,117 @@
+body{
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header{
+  background-color:#b1bd5d;
+  color: #955a47;
+  font-size: 20px;
+  text-align: center;
+}
+
+main{
+  background-color: white;
+  color: #955a47;
+  text-align: center; 
+}
+
+footer{
+  background-color: #edd690;
+  color: #955a47;
+  text-align: right;
+  margin-top: auto;
+}
+
+h1{
+  color: black;
+  /* Google Fonts. */
+  font-family: 'Anek Malayalam', sans-serif;
+  font-family: 'Caveat', cursive;
+  font-family: 'Dancing Script', cursive;
+  font-family: 'Waiting for the Sunrise', cursive;
+
+  font-size: 40px
+}
+
+h3{
+  color: #955a47;
+  /* Google Fonts. */
+  font-family: 'Anek Malayalam', sans-serif;
+  font-family: 'Caveat', cursive;
+  font-family: 'Dancing Script', cursive;
+  font-family: 'Waiting for the Sunrise', cursive;
+
+  font-size: 30px
+}
+
+p{
+  color: #955a47;
+  /* Google Fonts. */
+  font-family: 'Anek Malayalam', sans-serif;
+  font-family: 'Caveat', cursive;
+  font-family: 'Dancing Script', cursive;
+  font-family: 'Waiting for the Sunrise', cursive;
+
+  font-size: 20px;
+}
+
+a{
+  color: #955a47;;
+  /* Google Fonts. */
+  font-family: 'Anek Malayalam', sans-serif;
+  font-family: 'Caveat', cursive;
+  font-family: 'Dancing Script', cursive;
+  font-family: 'Waiting for the Sunrise', cursive;
+  text-decoration: none;
+
+  font-size: 20px
+}
+
+form{
+  color: #955a47;;
+  /* Google Fonts. */
+  font-family: 'Anek Malayalam', sans-serif;
+  font-family: 'Caveat', cursive;
+  font-family: 'Dancing Script', cursive;
+  font-family: 'Waiting for the Sunrise', cursive;
+
+  font-size: 20px;
+}
+
+/* - Sitio responsivo */
+/* - Uso de media queries */
+
+.resposivo{
+  display: flex ; 
+  flex-direction: row;
+}
+
+.resposivo div{
+ background-color: #edd690;
+ margin: 5px;
+ flex-basis: 100 px;
+}
+
+@media (max-width: 600px){
+  .resposivo{
+    flex-direction: column;
+    flex-basis: 100%
+  }
+  .resposivo div{
+    flex-basis: 100%;
+  }
+}
+
+.imagenes{
+  width: 75vw;
+  max-width: 200px;
+  min-width: 150px;
+  margin: auto;
+}
+
+img{
+  width: 100%;
+  border-radius: 50px;
+}
